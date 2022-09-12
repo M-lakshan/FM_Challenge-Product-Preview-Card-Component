@@ -29,10 +29,10 @@
 ### Screenshot
 
 - mobile-version 
-<img src="./docs/solutions/Product_Preview_Card_Component_Main_mobile.png" width="300" height="auto">
+<img src="./docs/solutions/Product_Preview_Card_Component_mobile.png" width="300" height="auto">
  
 - desktop-version <br/>
-<img src="./docs/solutions/Product_Preview_Card_Component_Main_desktop.png" width="600" height="auto">
+<img src="./docs/solutions/Product_Preview_Card_Component_desktop.png" width="600" height="auto">
 
 ### Links
 
