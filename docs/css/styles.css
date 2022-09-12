@@ -345,7 +345,7 @@ main #add_to_cart .material-symbols-outlined {
     background: #3c8067;
     border-radius: 8px;
     border: none;
-    margin: 20px 35px !important;
+    margin: 25px 35px !important;
     -webkit-transition: 300ms ease;
     transition: 300ms ease;
     font-family: 'Montserrat', serif;
