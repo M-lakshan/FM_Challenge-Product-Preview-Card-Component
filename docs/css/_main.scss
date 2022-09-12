@@ -1,0 +1,218 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: $Cream;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 124px 106px 60px 80px;
+    height: 610px;
+    width: 345px;
+    background: $White;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    border-radius: 12px;
+
+    img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .main_img_mob {
+        display: block;
+        height: auto;
+        width: 345px;
+    }
+
+    .main_img_desk {
+        display: none;
+    }
+
+    h1, h3 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    
+    h3 {
+        font-size: 12px;
+        font-weight: 400;
+        margin: 24px 0px 0px;
+        color: $Dark_Grayish_Blue;
+        padding-left: 25px;
+        letter-spacing: 5px;
+    }
+
+    h1 {
+        margin: 54px 0px 0px;
+        padding-left: 25px;
+        font-family: 'Fraunces', serif;
+        line-height: 30px;
+        color: $Very_Dark_Blue;
+    }
+
+    .description {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        color: $Dark_Grayish_Blue;
+        margin: 8px 0px;
+        padding: 0px 25px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin: 12px 0px;
+        padding-left: 25px;
+        padding-top: 2px;
+
+        .calc_price {
+            font-size: 32px;
+            font-family: 'Fraunces', serif;
+            color: $Cyan;
+            font-weight: 700;
+        }
+
+        .real_price {
+            font-size: 14px;
+            color: $Dark_Grayish_Blue;
+            padding-left: 22px;
+            text-decoration: line-through;
+        }
+    }
+
+    #add_to_cart {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        height: 48px;
+        width: 295px;
+        color: $White;
+        background: $Cyan;
+        border-radius: 8px;
+        border: none;
+        margin: 8px 25px;
+        transition: 300ms ease;
+        font-family: 'Montserrat', serif;
+        font-size: 14px;
+        font-weight: 600;
+
+        &:hover {
+            cursor: pointer;
+            transition: 300ms ease;
+            background: $Dark_Cyan;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+            font-size: 20px;
+            padding-right: 10px;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        display: grid;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 170px 110px 70px 95px;
+        height: 450px;
+        width: 600px;
+
+        img {
+            grid-column: 1/2;
+            grid-row: 1/5;
+        }
+    
+        .main_img_desk {
+            display: block !important;
+            height: auto;
+            width: 300px;
+        }
+        
+        .main_img_mob {
+            display: none !important;
+        }
+    
+        h1, h3 {
+            grid-column: 2/3 !important;
+            grid-row: 1/2 !important;
+        }
+        
+        h3 {
+            font-size: 12px;
+            margin: 32px 0px 0px !important;
+        }
+    
+        h1 {
+            margin: 68px 0px 0px !important;
+            padding: 0px 35px !important;
+            line-height: 32px !important;
+        }
+    
+        .description {
+            grid-column: 2/3 !important;
+            grid-row: 2/3 !important;
+            margin: 18px 0px !important;
+            padding: 0px 35px !important;
+        }
+    
+        .price {
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: center !important;
+            justify-content: left !important;
+            grid-column: 2/3 !important;
+            grid-row: 3/4 !important;
+            margin: 15px 0px 0px !important;
+            padding-left: 35px !important;
+        }
+    
+        #add_to_cart {
+            grid-column: 2/3 !important;
+            grid-row: 4/5 !important;
+            height: 48px !important;
+            width: 240px !important;
+            color: $White;
+            background: $Cyan;
+            border-radius: 8px;
+            border: none;
+            margin: 20px 35px !important;
+            transition: 300ms ease;
+            font-family: 'Montserrat', serif;
+            font-size: 14px;
+            font-weight: 600;
+    
+            &:hover {
+                transition: 300ms ease;
+                cursor: pointer;
+                background: $Dark_Cyan;
+            }
+    
+            .material-symbols-outlined {
+                font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
