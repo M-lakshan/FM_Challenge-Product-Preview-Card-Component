@@ -29,15 +29,15 @@
 ### Screenshot
 
 - mobile-version 
-<img src="./docs/solutions/Product_Preview_Card_Component_Main_mobile.png" width="300" height="auto">
+<img src="./docs/solutions/Product_Preview_Card_Component_mobile.png" width="300" height="auto">
  
 - desktop-version <br/>
-<img src="./docs/solutions/Product_Preview_Card_Component_Main_desktop.png" width="600" height="auto">
+<img src="./docs/solutions/Product_Preview_Card_Component_desktop.png" width="600" height="auto">
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/M-lakshan/FM_Challenge-Order-Summary-Component-Main)
-- Live Site URL: [live site URL](https://m-lakshan.github.io/FM_Challenge-Order-Summary-Component-Main/)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/simple-product-preview-card-component-using-html-and-css-fN3l6FK1qv)
+- Live Site URL: [live site URL](https://m-lakshan.github.io/FM_Challenge-Product-Preview-Card-Component/)
 
 ## My process
 
