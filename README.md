@@ -36,8 +36,8 @@
 
 ### Links
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/simple-product-preview-card-component-using-html-and-css-fN3l6FK1qv)
-- Live Site URL: [live site URL](https://m-lakshan.github.io/FM_Challenge-Product-Preview-Card-Component/)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/simple-product-preview-card-component-using-html-and-css-fN3l6FK1qv)
+- Live Site URL: [GitHub Pages](https://m-lakshan.github.io/FM_Challenge-Product-Preview-Card-Component/)
 
 ## My process
 
